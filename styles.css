@@ -157,7 +157,7 @@ html{
 }
 .sobremi .fila .col
 {
-    width: 50%;
+    /* width: 50%;  */
 }
 .sobremi .fila .col h3{
     font-size: 28px;
