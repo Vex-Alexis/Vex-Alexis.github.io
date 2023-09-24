@@ -167,6 +167,7 @@ html{
 .sobremi .fila .col ul{
     list-style: none;
     text-align: left;
+    margin-bottom: 50px;
 }
 .sobremi .fila .col ul li{
     margin: 12px 0;
@@ -185,6 +186,8 @@ html{
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 15px;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
@@ -510,7 +513,7 @@ html{
 }
 .portfolio .galeria .proyecto{
     position: relative;
-    width: 350px;
+    width: 356px;
     margin: 20px;
     cursor: pointer;
     box-sizing: content-box;
@@ -519,7 +522,7 @@ html{
     overflow: hidden;
 }
 .portfolio .galeria .proyecto img{
-    width: 350px;
+    width: 100%;
     height: 224px;
     object-fit: cover;
 }
@@ -527,20 +530,38 @@ html{
     padding: 18px 24px;
     width: 100%;
     position: relative;
-    top: -4px;    
+    top: -4px;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio .galeria .proyecto .data h3{
+    margin-bottom: 22px;
 }
 .portfolio .galeria .proyecto .data .descripcion{
-    margin-bottom: 16px;
-    margin: 12px 0;
+    margin-bottom: 32px;
 }
 .portfolio .galeria .proyecto .data .icons{
     display: flex;
-    padding: 18px 0 12px;
+    padding: 16px 0px;    
 }
 .portfolio .galeria .proyecto .data .icons img{
     width: 28px;
     height: 28px;
-    margin-right: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+    object-fit: fill;
+    transition: 0.5s;
+}
+.portfolio .galeria .proyecto .data .icons img:hover{
+    scale: 2;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 300%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.bg-w{
+    background-color: #ffffff;
+    min-width: 28px;
+    border-radius: 6px;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
@@ -549,7 +570,7 @@ html{
     width: 100%;
     height: 224px;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(28,182,152,.9), rgba(28,182,152,.9));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -746,6 +767,9 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
+    .sobremi .contenido-seccion{
+        padding: 50px 0px;
+    }
     .sobremi .fila{
         display: block;
     }
