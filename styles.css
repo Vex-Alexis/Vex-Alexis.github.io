@@ -263,7 +263,7 @@ html{
     margin-bottom: 25px;
 }
 .skills .skill > span{
-    font-weight: bold;
+    font-weight: 500;
     display: block;
     margin-bottom: 10px;
 }
@@ -300,7 +300,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 .skills .skill .htmlcss{
     width: 0%;
@@ -308,7 +308,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .photoshop{
@@ -317,7 +317,7 @@ html{
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .wordpress{
@@ -326,7 +326,7 @@ html{
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .drupal{
@@ -335,7 +335,7 @@ html{
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .comunicacion{
@@ -344,7 +344,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .trabajo{
@@ -353,7 +353,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .creatividad{
@@ -362,7 +362,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .dedicacion{
@@ -371,7 +371,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .proyect{
@@ -380,7 +380,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 80%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
