@@ -44,3 +44,4 @@ window.onscroll = function(){
 
 
 // Se agrega comentario al final del archivo script.js
+// Se agrega segundo comentario al final del archivo
