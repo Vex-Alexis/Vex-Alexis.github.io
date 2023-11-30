@@ -40,3 +40,7 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+
+
+// Se agrega comentario al final del archivo script.js
